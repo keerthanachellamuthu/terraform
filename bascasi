@@ -97,3 +97,7 @@ what is kakfa connect ?
 Kafka Connect is a framework for connecting Kafka with external systems, including databases.
 A Kafka Connect cluster is a separate cluster from the Kafka cluster. 
 The Kafka Connect cluster supports running and scaling out connectors (components that support reading and/or writing between external systems).
+
+What is KSQL used for?
+Confluent KSQL is the streaming SQL engine that enables real-time data processing against Apache Kafka®.
+It provides an easy-to-use, yet powerful interactive SQL interface for stream processing on Kafka, without the need to write code in a programming language such as Java or Python.
