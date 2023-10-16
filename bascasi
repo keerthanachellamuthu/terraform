@@ -101,3 +101,8 @@ The Kafka Connect cluster supports running and scaling out connectors (component
 What is KSQL used for?
 Confluent KSQL is the streaming SQL engine that enables real-time data processing against Apache Kafka®.
 It provides an easy-to-use, yet powerful interactive SQL interface for stream processing on Kafka, without the need to write code in a programming language such as Java or Python.
+
+What is a schema registry in Kafka?
+Schema Registry provides a centralized repository for managing and validating schemas for topic message data,
+and for serialization and deserialization of the data over the network.
+Producers and consumers to Kafka topics can use schemas to ensure data consistency and compatibility as schemas evolve.
