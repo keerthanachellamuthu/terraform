@@ -18,6 +18,7 @@ IaC makes this process much easier by allowing you to define and provision your 
 With this approach, you can gain consistency, repeatability, and enhanced reliability. 
 In addition to day one infrastructure setup, this approach also helps with the management of any changes that happen to your infrastructure along the way, commonly referred to as drift management. (If you’re interested in how to manage Terraform workflows at scale, see: How to Manage Terraform at Scale)
 Other common IaC tools include Cloud Formation Templates (CFT) for AWS, Azure Resource Manager (ARM) templates for Microsoft Azure, and Deployment Manager for Google cloud.
+
 How Terraform Works?
 At a high level, Terraform can be thought of as consisting of two main parts: Terraform Core and Plugins.
 Core is responsible for life cycle management of infrastructure. It is the open-source binary that you download and use from the command line. 
@@ -84,4 +85,11 @@ Global options (use these before the subcommand, if any):
   -version      An alias for the "version" subcommand.
 that while an IaC tool requires you to learn its DSL, IaS allows you to program in a standard language,
 
-Infrastructure is the foundation or framework that supports a system or organization. In computing, information technology infrastructure is composed of physical and virtual resources that support the flow, storage, processing and analysis of data.
+Infrastructure is the foundation or framework that supports a system or organization. 
+In computing, information technology infrastructure is composed of physical and virtual resources that support the flow, storage, processing and analysis of data.
+
+
+data warehouse vs database
+A database stores the current data required to power an application.
+A data warehouse stores current and historical data from one or more systems in a predefined and fixed schema, which allows business analysts and data scientists to easily analyze the data
+
