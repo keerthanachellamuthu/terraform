@@ -106,3 +106,7 @@ What is a schema registry in Kafka?
 Schema Registry provides a centralized repository for managing and validating schemas for topic message data,
 and for serialization and deserialization of the data over the network.
 Producers and consumers to Kafka topics can use schemas to ensure data consistency and compatibility as schemas evolve.
+
+Apache Airflow is an open-source tool to programmatically author, schedule, and monitor workflows.
+It is one of the most robust platforms used by Data Engineers for orchestrating workflows or pipelines.
+You can easily visualize your data pipelines' dependencies, progress, logs, code, trigger tasks, and success status.
