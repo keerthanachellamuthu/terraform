@@ -93,3 +93,7 @@ data warehouse vs database
 A database stores the current data required to power an application.
 A data warehouse stores current and historical data from one or more systems in a predefined and fixed schema, which allows business analysts and data scientists to easily analyze the data
 
+what is kakfa connect ?
+Kafka Connect is a framework for connecting Kafka with external systems, including databases.
+A Kafka Connect cluster is a separate cluster from the Kafka cluster. 
+The Kafka Connect cluster supports running and scaling out connectors (components that support reading and/or writing between external systems).
